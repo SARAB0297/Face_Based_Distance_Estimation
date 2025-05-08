@@ -57,18 +57,16 @@ NumPy
 
 Google Colab or Jupyter environment
 
-Haar Cascade file (download with the command below)
+Haar Cascade file 
 
-bash
-Copy
-Edit
-wget https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
 🖼️ Sample Output
+
 The test images show distance labels ("near"/"far") based on thresholds (e.g., 100 cm).
 
 Output includes the bounding box around the face and a printed estimated distance.
 
 ⚠️ Troubleshooting
+
 Face Not Detected: Ensure the XML file is loaded correctly and lighting/angle of the image is proper.
 
 Distance is Zero: Likely due to face detection failure; use larger/clearer images.
